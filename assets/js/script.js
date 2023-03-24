@@ -1,6 +1,5 @@
-$('.dl-button').on('contextmenu', e => {
-    e.preventDefault();
-
+$('.dl-button').on('click', e => {
+    
     let btn = $(e.currentTarget),
         label = btn.find('.label'),
         counter = label.find('.counter');
