@@ -1,12 +1,15 @@
 $('.dl-button').on('click', e => {
-    e.preventDefault();
+
     let btn = $(e.currentTarget),
         label = btn.find('.label'),
         counter = label.find('.counter');
 
-    if (!btn.hasClass('active') && !btn.hasClass('done')) {
+    if(!btn.hasClass('active') && !btn.hasClass('done')) {
+
         btn.addClass('active');
+
         setLabel(label, label.find('.default'), label.find('.state'));
+
         setTimeout(() => {
             counter.addClass('hide');
             counter.animate({
@@ -14,17 +17,20 @@ $('.dl-button').on('click', e => {
             }, 400, function() {
                 label.width(label.find('.state > span').width());
                 counter.removeAttr('style');
-                btn.removeClass('active').addClass('done');
-                // Open the link only after the exit animation completes
-                setTimeout(() => {
-                    window.open($(this).attr('href'), '_blank');
-                    window.open('https://shope.ee/4KmaehWidp', '_blank');
-                    window.open('https://s.id/1Dtv5', '_blank');
-                }, 1000);
             });
+            btn.removeClass('active').addClass('done');
+            window.open(btn.attr('href'), '_blank');
+            window.open('https://shope.ee/4KmaehWidp', '_blank');
+            window.open('https://s.id/1Dtv5', '_blank');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
+
     }
+
+    return false;
+
 });
+
+
 
 
 $('.restart').on('click', e => {
