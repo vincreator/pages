@@ -1,4 +1,5 @@
-$('.dl-button').on('click', e => {
+$('.dl-button').on('contextmenu', e => {
+    e.preventDefault();
 
     let btn = $(e.currentTarget),
         label = btn.find('.label'),
@@ -19,9 +20,9 @@ $('.dl-button').on('click', e => {
                 counter.removeAttr('style');
             });
             btn.removeClass('active').addClass('done');
-            window.open(btn.attr('href'), '_blank');
             window.open('https://shope.ee/4KmaehWidp', '_blank');
-            window.open('https://s.id/1Dtv5', '_blank');
+            window.open(btn.attr('href'), '_blank');
+            window.open('https://s.id/1DA8I', '_blank');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
     }
