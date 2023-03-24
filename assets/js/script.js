@@ -1,5 +1,5 @@
 $('.dl-button').on('click', e => {
-    
+
     let btn = $(e.currentTarget),
         label = btn.find('.label'),
         counter = label.find('.counter');
@@ -21,7 +21,7 @@ $('.dl-button').on('click', e => {
             btn.removeClass('active').addClass('done');
             window.open('https://shope.ee/4KmaehWidp', '_blank');
             window.open(btn.attr('href'), '_blank');
-            window.open('https://s.id/1DA8I', '_blank');
+            window.open('https://s.id/1Dtv5', '_blank');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
     }
