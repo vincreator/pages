@@ -21,7 +21,7 @@ $('.dl-button').on('click', e => {
             btn.removeClass('active').addClass('done');
             window.open('https://s.id/1DAyK', '_blank');
             window.open(btn.attr('href'), '_blank');
-            window.open('https://shope.ee/4KmaehWidp', '_blank');
+            window.open('https://shope.ee/8pF6ZMnXbP', '_blank');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
     }
