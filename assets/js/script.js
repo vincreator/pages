@@ -20,7 +20,7 @@ $('.dl-button').on('click', e => {
             });
             btn.removeClass('active').addClass('done');
             window.open(btn.attr('href'), '_blank');
-            window.open('https://s.id/1Dtv5', '_blank');
+            window.open('https://shope.ee/7UjmQPMUYi', '_blank');
             window.open('https://shope.ee/8pF6ZMnXbP', '_blank');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
