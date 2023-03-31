@@ -1,3 +1,3 @@
 LINK Website
 
-klikfilm.my.id/
+https://streaming.klikfilm.my.id/
