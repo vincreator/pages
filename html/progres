@@ -10,7 +10,7 @@
   <style>
     body {
       overflow: hidden;
-      background: #bcdee7 url("/assets/mufbg.jpeg") no-repeat center center fixed;
+      background: #bcdee7 url("/assets/ppbg.jpg") no-repeat center center fixed;
       background-size: cover;
       position: fixed;
       padding: 0px;
@@ -34,7 +34,7 @@
 
       <!-- the username -->
       <h1>
-        MELUR UNTUK FIRDAUS
+        PROGRESNYA BERAPA PERSEN
       </h1>
 
       <!-- and role or location -->
@@ -48,7 +48,7 @@
     <div class="profile-bio">
 
       <p>
-        KLIK DOWNLOAD UNTUK STREAMING 
+        KLIK DOWNLOAD DIBAWAH UNTUK STREAMING 
       </p>
 
     </div>
