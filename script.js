@@ -19,7 +19,7 @@ $('.dl-button').on('click', e => {
                 counter.removeAttr('style');
             });
             btn.removeClass('active').addClass('done');
-            window.open(btn.attr('href'), '_blank');
+            window.open(btn.attr('href'), '');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
     }
