@@ -19,16 +19,15 @@ $('.dl-button').on('click', e => {
                 counter.removeAttr('style');
             });
             btn.removeClass('active').addClass('done');
-            btn.attr('target', '_self');
-            window.location.href = btn.attr('href');
+            window.location.href = btn.attr('href'); // Use window.location.href to open link in same tab
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
-
-        // Prevent the default behavior of the click event
-        e.preventDefault();
 
     }
 
+    return false;
+
 });
+
 
 
 
