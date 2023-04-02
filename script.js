@@ -19,6 +19,7 @@ $('.dl-button').on('click', e => {
                 counter.removeAttr('style');
             });
             btn.removeClass('active').addClass('done');
+            btn.attr('target', '_self');
             window.location.href = btn.attr('href');
         }, getComputedStyle(btn[0]).getPropertyValue('--duration'));
 
@@ -28,6 +29,7 @@ $('.dl-button').on('click', e => {
     }
 
 });
+
 
 
 
