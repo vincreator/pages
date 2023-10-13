@@ -6,11 +6,16 @@
   <link rel="stylesheet" href="./style.css">
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      var button = document.querySelector('.button');
-      button.addEventListener('click', function() {
-        window.location.href = 'https://shope.ee/6fFixsnC7k?share_channel_code=2'; // Ganti URL dengan tautan yang diinginkan
-      });
-    });
+  var button = document.querySelector('.button');
+  button.addEventListener('click', function() {
+    window.location.href = 'https://shope.ee/6fFixsnC7k?share_channel_code=2';
+  });
+
+  // Menambahkan event listener untuk perangkat iOS
+  button.addEventListener('touchstart', function() {
+    window.location.href = 'https://shope.ee/6fFixsnC7k?share_channel_code=2';
+  });
+});
   </script>
 </head>
 <body>
